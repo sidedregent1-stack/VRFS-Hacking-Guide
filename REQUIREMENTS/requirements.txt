@@ -1,0 +1,23 @@
+VRFS Hacking Requirements - Everything Needed to Run the Mod Menu
+
+Core Requirements:
+- Meta Quest 2/3/Pro with Developer Mode enabled
+- SideQuest (latest version) on PC
+- USB cable for Quest connection
+- .NET 6.0 SDK or newer on PC
+- Visual Studio 2022+ or JetBrains Rider (for building C#)
+- BepInEx for Quest/Android (IL2CPP version)
+- VRFS installed on Quest
+
+Optional but Strongly Recommended:
+- Il2CppDumper (for dumping game assemblies)
+- dnSpy or ILSpy (for finding exact class/method names)
+- ADB (Android Debug Bridge) for advanced file management
+
+Files in this REQUIREMENTS folder:
+- BepInEx_Quest_Install_Guide.md
+- Il2CppDumper_Setup.md
+- Example_Mod_Code.cs (template)
+- Build_Instructions.md
+
+All files needed to keep the mod running are listed here. No external dependencies beyond these.
